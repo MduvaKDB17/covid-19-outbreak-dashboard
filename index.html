@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Early Outbreak Dashboard</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/data.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <header class="dashboard-header">
+        <h1>Covid-19 Early Outbreak Dashboard</h1>
+        <p>February - March 2020</p>
+    </header>
+
+    <main class="dashboard-container">
+
+        <section class="filters">
+            <label for="country-select">Select a country:</label>
+            <select id="country-select">
+                <option value="">--Select a country--</option>
+            </select>
+        </section>
+
+        <section class="metrics">
+
+            <div class="metric-card">
+                <h2>Confirmed Cases</h2>
+                <p id="confirmed-cases">0</p>
+            </div>
+
+            <div class="metric-card">
+                <h2>Deaths</h2>
+                <p id="deaths">0</p>
+            </div>
+
+            <div class="metric-card">
+                <h2>Recoveries</h2>
+                <p id="recoveries">0</p>
+            </div>
+
+            <div class="metric-card">
+                <h2>Active Cases</h2>
+                <p id="active-cases">0</p>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
